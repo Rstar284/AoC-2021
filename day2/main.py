@@ -17,6 +17,7 @@ for line in input:
         depth += num
 
 print(y * depth)
+print(y * depth1)
 
 
 
