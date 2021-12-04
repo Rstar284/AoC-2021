@@ -1,6 +1,7 @@
 with open('input.txt', 'r') as f:
     input = f.readlines()
     bits = [0] * len(input[0].strip())
+    #part one
     eps = ""
     gam = ""
     for line in input:
@@ -14,7 +15,6 @@ with open('input.txt', 'r') as f:
         else:
             gam += "0"
             eps += "1"
-    print(int(eps,2) *int(gam, 2))
-
+    print(int(eps,2) *int(gam, 2))  
 
    
